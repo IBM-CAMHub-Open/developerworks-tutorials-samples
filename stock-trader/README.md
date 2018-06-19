@@ -4,3 +4,6 @@ This repo contains the terraform templates for configurations required by Stock 
 
 Service can be composed using these terraform templates using IBM Cloud Automation Manager instead of manually deploying ICP helm charts and configuraion steps(total 10-15 steps) .
 The deployment with both the paths i.e Production and Development is supported .
+
+The terraform templates createPV ,DB2Config ,DB2ConfigExternal ,MQConfig ,WaitForPod needs the scripts in their respective folder to pe copied inside /tmp of the master node.
+

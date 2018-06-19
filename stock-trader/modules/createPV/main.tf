@@ -1,10 +1,9 @@
 variable "serverip" {
-  #  default = ""
   description = "IP of host to ssh"
 }
 
 variable "root_password" {
-  default     = "passw0rd"
+  
   description = "ssh root password"
 }
 
