@@ -1,5 +1,4 @@
 variable "serverip" {
-  #  default = ""
   description = "IP of host to ssh"
 }
 
