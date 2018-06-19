@@ -4,7 +4,7 @@ variable "serverip" {
 }
 
 variable "root_password" {
-  default     = "passw0rd"
+  
   description = "ssh root password"
 }
 
